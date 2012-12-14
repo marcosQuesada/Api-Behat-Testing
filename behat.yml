@@ -1,0 +1,22 @@
+default:
+  extensions:
+    Behat\Symfony2Extension\Extension:
+        mink_driver: true
+        kernel:
+          env: test
+          debug: true
+    Behat\MinkExtension\Extension:
+        default_session: 'goutte'
+        base_url: 'http://www.facebook.com'
+        #base_url: 'http://dev.example.com/app_test.php/'
+        goutte: ~
+        sahi: ~
+        selenium2: ~
+        show_cmd:  google-chrome %%s #firefox
+        javascript_session:  selenium
+        browser_name: firefox
+        selenium:          ~
+        javascript_session: selenium
+        selenium:
+          host: 127.0.0.1
+          port: 4444

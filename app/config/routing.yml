@@ -1,0 +1,9 @@
+acme_api:
+    resource: "@AcmeApiBundle/Controller/"
+    type:     annotation
+    prefix:   /api
+
+# Internal routing configuration to handle ESI
+#_internal:
+#    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#    prefix:   /_internal
