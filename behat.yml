@@ -8,12 +8,3 @@ default:
     Behat\MinkExtension\Extension:
         default_session: 'goutte'
         goutte: ~
-        selenium2: ~
-        show_cmd:  google-chrome %%s 
-        javascript_session:  selenium
-        browser_name: firefox
-        selenium:          ~
-        javascript_session: selenium
-        selenium:
-          host: 127.0.0.1
-          port: 4444
