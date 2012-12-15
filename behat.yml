@@ -7,12 +7,9 @@ default:
           debug: true
     Behat\MinkExtension\Extension:
         default_session: 'goutte'
-        base_url: 'http://www.facebook.com'
-        #base_url: 'http://dev.example.com/app_test.php/'
         goutte: ~
-        sahi: ~
         selenium2: ~
-        show_cmd:  google-chrome %%s #firefox
+        show_cmd:  google-chrome %%s 
         javascript_session:  selenium
         browser_name: firefox
         selenium:          ~

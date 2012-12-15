@@ -23,4 +23,5 @@ class DefaultController extends Controller
 
         return new Response(json_encode(array('postalCode' => $response)));
     }
+
 }
